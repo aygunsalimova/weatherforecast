@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./assets/weather.svg" type="image/x-icon">
+  <title>Weather Forecast</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="navbar">
+      <div>
+        <img class="logo bg" src="./assets/background.svg" alt="logo-background" srcset="">
+        <img class="logo sun image" src="./assets/sun.svg" alt="logo-sun" srcset="">
+        <img class="logo cloud" src="./assets/cloud.svg" alt="logo-cloud" srcset="">
+        <img class="logo cloud" src="./assets/cloud.svg" alt="logo-cloud" srcset="">
+      </div>
+
+      <h1>
+        Search a city <br /> & learn weather forecast
+      </h1>
+    </div>
+
+    <div class="box-container">
+      <input type="text" id="inp" autocomplete="off" placeholder="Type a city" />
+    </div>
+
+    <div class="result">
+      <div id="center">
+        <div id="city">
+          <div class="text" id="city-name"></div>
+          <div class="text" id="temp"></div>
+        </div>
+        <div class="text" id="description"></div>
+        <div class="text" id="minmax"></div>
+        <div class="text" id="humidity"></div>
+        <div class="text" id="wind"></div>
+      </div>
+    
+    </div>
+  </div>
+
+  <h1 class="copy"><a href="https://aygunsalimova.netlify.app/" target="_blank"> &copy; Aygun Salimova</a></h1>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
