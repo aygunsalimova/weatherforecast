@@ -1,1 +1,1 @@
-### [weatherforecast.github.io] (weatherrforecastt.netlify.app)
+### Simple Weather Forecast Application (weatherrforecastt.netlify.app)
